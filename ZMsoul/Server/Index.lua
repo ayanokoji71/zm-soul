@@ -206,15 +206,15 @@ table.insert(MAP_ROOMS[8], {
     z_ground_debris_location = Vector(15827.975, -2976.939, 30.804)
 })
 table.insert(MAP_ROOMS[1], {
-    barricade_location = Vector(-16518.000, -14303.000, -1660.000),
+    barricade_location = Vector(-16518.000, -14309.000, -1623.000),
     barricade_rotation = Rotator(0.000000, -70.000122, 0.000000),
-    z_move_to_b_target_location = Vector(-16621.418, -14340.641, -1845.000),
+    z_move_to_b_target_location = Vector(-16698.883, -14374.836, -1808.000),
     z_reach_rotation = Rotator(0.000000, 19.999870, 0.000000),
-    z_leave_b_tp_location = Vector(-16414.582, -14265.359, -1845.000),
+    z_leave_b_tp_location = Vector(-16337.117, -14243.164, -1808.000),
     z_spawns = {},
     type = "barricade",
     z_leave_b_tp_rotation = Rotator(0.000000, 19.999870, 0.000000),
-    z_ground_debris_location = Vector(-16376.994, -14251.679, -1845.000)
+    z_ground_debris_location = Vector(-16299.529, -14229.483, -1808.000)
 })
 
 
@@ -390,175 +390,211 @@ MAP_SETTINGS = {
 }
 
 
+
 -- Zombie Spawns
 table.insert(MAP_ROOMS[3], {
     type = "ground",
     location = Vector(-1928.000, -10964.000, -2098.000),
-    rotation = Rotator(0.000000, -150.000183, 0.000000)
+    rotation = Rotator(0.000000, -150.000183, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[3], {
     type = "ground",
     location = Vector(-1897.000, -12348.000, -2137.000),
-    rotation = Rotator(0.000000, 110.000130, 0.000000)
+    rotation = Rotator(0.000000, 110.000130, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[3], {
     type = "ground",
     location = Vector(-8135.000, -10356.000, -2138.000),
-    rotation = Rotator(0.000000, -20.000027, 0.000000)
+    rotation = Rotator(0.000000, -20.000027, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[3], {
     type = "ground",
     location = Vector(-6981.000, -11719.000, -2118.000),
-    rotation = Rotator(0.000000, 70.000122, 0.000000)
+    rotation = Rotator(0.000000, 70.000122, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[3], {
     type = "ground",
     location = Vector(-4871.000, -10785.000, -2148.000),
-    rotation = Rotator(0.000000, -100.000160, 0.000000)
+    rotation = Rotator(0.000000, -100.000160, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[4], {
     type = "ground",
     location = Vector(-3680.000, -6449.000, -1206.000),
-    rotation = Rotator(0.000000, -140.000183, 0.000000)
+    rotation = Rotator(0.000000, -140.000183, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[4], {
     type = "ground",
     location = Vector(-5937.000, -5607.000, -1206.000),
-    rotation = Rotator(0.000000, -130.000137, 0.000000)
+    rotation = Rotator(0.000000, -130.000137, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[4], {
     type = "ground",
     location = Vector(-6692.000, -7871.000, -1206.000),
-    rotation = Rotator(0.000000, 30.000071, 0.000000)
+    rotation = Rotator(0.000000, 30.000071, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[4], {
     type = "ground",
     location = Vector(-2759.000, -9193.000, -1422.000),
-    rotation = Rotator(0.000000, -150.000183, 0.000000)
+    rotation = Rotator(0.000000, -150.000183, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[4], {
     type = "ground",
     location = Vector(-4670.000, -2619.000, -282.000),
-    rotation = Rotator(0.000000, -70.000122, 0.000000)
+    rotation = Rotator(0.000000, -70.000122, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[4], {
     type = "ground",
     location = Vector(-1227.000, -3935.000, 722.000),
-    rotation = Rotator(0.000000, 0.000000, 0.000000)
+    rotation = Rotator(0.000000, 0.000000, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[5], {
     type = "ground",
     location = Vector(6440.000, 960.000, -367.000),
-    rotation = Rotator(0.000000, -40.000050, 0.000000)
+    rotation = Rotator(0.000000, -40.000050, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[5][2].z_spawns, {
     location = Vector(7651.000, 663.000, -149.000),
-    rotation = Rotator(0.000000, -150.000183, 0.000000)
+    rotation = Rotator(0.000000, -150.000183, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[5], {
     type = "ground",
     location = Vector(5878.000, -2144.000, 286.000),
-    rotation = Rotator(0.000000, 50.000092, 0.000000)
+    rotation = Rotator(0.000000, 50.000092, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[5][1].z_spawns, {
     location = Vector(7452.000, -1784.000, 183.000),
-    rotation = Rotator(0.000000, 170.000168, 0.000000)
+    rotation = Rotator(0.000000, 170.000168, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[6], {
     type = "ground",
     location = Vector(9560.000, -2734.000, 170.000),
-    rotation = Rotator(0.000000, 110.000130, 0.000000)
+    rotation = Rotator(0.000000, 110.000130, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[6], {
     type = "ground",
     location = Vector(9140.000, -1770.000, 174.000),
-    rotation = Rotator(0.000000, 0.000000, 0.000000)
+    rotation = Rotator(0.000000, 0.000000, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[6], {
     type = "ground",
     location = Vector(9650.000, -2968.000, 366.000),
-    rotation = Rotator(0.000000, 30.000071, 0.000000)
+    rotation = Rotator(0.000000, 30.000071, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[6], {
     type = "ground",
     location = Vector(11793.000, -3284.000, 359.000),
-    rotation = Rotator(0.000000, 150.000198, 0.000000)
+    rotation = Rotator(0.000000, 150.000198, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[1], {
     type = "ground",
     location = Vector(-13369.000, -13381.000, -2088.000),
-    rotation = Rotator(0.000000, -160.000137, 0.000000)
+    rotation = Rotator(0.000000, -160.000137, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[6], {
     type = "ground",
     location = Vector(11284.000, -1747.000, 347.000),
-    rotation = Rotator(0.000000, -130.000137, 0.000000)
+    rotation = Rotator(0.000000, -130.000137, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[7], {
     type = "ground",
     location = Vector(11582.000, -4486.000, 360.000),
-    rotation = Rotator(0.000000, 25.000011, 0.000000)
+    rotation = Rotator(0.000000, 25.000011, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[7], {
     type = "ground",
     location = Vector(15060.000, -2909.000, -182.000),
-    rotation = Rotator(0.000000, -80.000046, 0.000000)
+    rotation = Rotator(0.000000, -80.000046, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[8][1].z_spawns, {
     location = Vector(15792.000, -2396.000, -183.000),
-    rotation = Rotator(0.000000, -90.000053, 0.000000)
+    rotation = Rotator(0.000000, -90.000053, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[8], {
     type = "ground",
     location = Vector(17929.000, -3488.000, -838.000),
-    rotation = Rotator(0.000000, 140.000000, 0.000000)
+    rotation = Rotator(0.000000, 140.000000, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[8], {
     type = "ground",
     location = Vector(24478.000, 1585.000, -2540.000),
-    rotation = Rotator(0.000000, 105.000053, 0.000000)
+    rotation = Rotator(0.000000, 105.000053, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[8], {
     type = "ground",
     location = Vector(23137.000, 965.000, -2084.000),
-    rotation = Rotator(0.000000, -45.000061, 0.000000)
+    rotation = Rotator(0.000000, -45.000061, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[1], {
     type = "ground",
     location = Vector(-14997.000, -15095.000, -2137.000),
-    rotation = Rotator(0.000000, 90.000114, 0.000000)
+    rotation = Rotator(0.000000, 90.000114, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[1], {
     type = "ground",
     location = Vector(-11433.000, -14431.000, -2124.000),
-    rotation = Rotator(0.000000, -110.000145, 0.000000)
+    rotation = Rotator(0.000000, -110.000145, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[1], {
     type = "ground",
     location = Vector(-11225.000, -15431.000, -2086.000),
-    rotation = Rotator(0.000000, 60.000088, 0.000000)
+    rotation = Rotator(0.000000, 60.000088, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[2][2].z_spawns, {
     location = Vector(-8617.000, -17206.000, -2155.000),
-    rotation = Rotator(0.000000, -170.000214, 0.000000)
+    rotation = Rotator(0.000000, -170.000214, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[2][1].z_spawns, {
     location = Vector(-8126.000, -17621.000, -2092.000),
-    rotation = Rotator(0.000000, 0.000000, 0.000000)
+    rotation = Rotator(0.000000, 0.000000, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[2], {
     type = "ground",
     location = Vector(-7457.000, -14962.000, -2020.000),
-    rotation = Rotator(0.000000, -110.000092, 0.000000)
+    rotation = Rotator(0.000000, -110.000092, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[3], {
     type = "ground",
     location = Vector(-2962.000, -13027.000, -2124.000),
-    rotation = Rotator(0.000000, 160.000183, 0.000000)
+    rotation = Rotator(0.000000, 160.000183, 0.000000),
+    ground_anim = true
 })
 table.insert(MAP_ROOMS[1][1].z_spawns, {
-    location = Vector(-17201.000, -15362.000, -1739.000),
-    rotation = Rotator(0.000000, 40.000038, 0.000000)
+    location = Vector(-17201.000, -15362.000, -1722.000),
+    rotation = Rotator(0.000000, 40.000038, 0.000000),
+    ground_anim = true
 })
 
 
