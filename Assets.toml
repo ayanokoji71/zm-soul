@@ -5,7 +5,7 @@
     # contributors
     author =            "Ayanokoji"
     # version
-    version =           "0.1.1"
+    version =           "0.2.0"
     # image URL
     image =             ""
     # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
