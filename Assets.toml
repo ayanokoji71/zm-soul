@@ -5,11 +5,16 @@
     # contributors
     author =            "Ayanokoji"
     # version
-    version =           "0.2.0"
+    version =           "0.2.1"
     # image URL
     image =             ""
+
+# unreal engine configurations
+[unreal]
     # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
     unreal_folder =     "ZMsoul"
+    # unreal engine version - unreal version this asset pack was compiled on
+    unreal_version =    "5.0.2"
 
 # assets files
 [assets]
